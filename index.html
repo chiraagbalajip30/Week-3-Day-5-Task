@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mini Shopping Cart System</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Mini Shop</h1>
+      <button id="cartBtn">🛒 Cart (<span id="cartCount">0</span>)</button>
+    </header>
+
+    <!-- PRODUCTS -->
+    <section id="products" class="grid"></section>
+
+    <!-- CART -->
+    <section id="cart" class="hidden">
+      <h2>Your Cart</h2>
+      <div id="cartItems"></div>
+      <h3>Total: ₹<span id="total">0</span></h3>
+      <button id="closeCart">Close</button>
+    </section>
+    <script src="script.js"></script>
+  </body>
+</html>
+
+<!-- Build a “Mini Shopping Cart System” -->
